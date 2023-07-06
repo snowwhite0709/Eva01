@@ -5,7 +5,6 @@ import java.awt.event.ActionListener;
 import java.io.File;
 
 import javax.sound.sampled.Clip;
-import javax.sound.sampled.FloatControl;
 import javax.swing.GroupLayout;
 import javax.swing.GroupLayout.Alignment;
 import javax.swing.JButton;
@@ -300,6 +299,8 @@ public class ButtonPanel extends JPanel {
 	public void nextEpisode() {
 		Main.panel.add(new NextEpisodeImage(),"nextEpisodeImage");
 		Main.layout.show(Main.panel, "nextEpisodeImage");
+		
+		
 	}
 
 
@@ -333,9 +334,9 @@ public class ButtonPanel extends JPanel {
 		nextEpisodeBGM_1.start();
 		//↓MP３ではないものをコピペする
 //		impactFlash = BGM.createClip(new File("C:\\Users\\智志\\Desktop\\eva\\エヴァンゲリオン　インパクトフラッシュ-from-YouTube.wav"));
-		FloatControl ctrl = (FloatControl)impactFlash.getControl(FloatControl.Type.MASTER_GAIN);
-		impactFlash.start();
-		ctrl.setValue(6);
+//		FloatControl ctrl = (FloatControl)impactFlash.getControl(FloatControl.Type.MASTER_GAIN);
+//		impactFlash.start();
+//		ctrl.setValue(6);
 
 		//画像の処理
 		nextEpisode();

@@ -12,8 +12,16 @@ public class NextEpisodeImage extends JPanel {
 
 	
 	public NextEpisodeImage() {
+		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\智志\\Desktop\\次回予告①.jpg"));
+		
+		//次回予告
+				//"C:\Users\3030855\git\Eva01\file\次回予告①.jpg"
+		lblNewLabel.setIcon(new ImageIcon("\"C:\\Users\\3030855\\git\\Eva01\\file\\次回予告①.jpg\""));
+//		add(lblNewLabel);
+		
+		
+//		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\予告.jpg"));
 		GroupLayout groupLayout = new GroupLayout(this);
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)

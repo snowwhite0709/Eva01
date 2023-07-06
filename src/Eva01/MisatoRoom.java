@@ -14,7 +14,7 @@ public class MisatoRoom extends JPanel {
 	public MisatoRoom() {
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\智志\\Desktop\\ミサトの部屋②.jpg"));
+		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\ミサトの部屋②.jpg"));
 		GroupLayout groupLayout = new GroupLayout(this);
 		groupLayout.setHorizontalGroup(
 			groupLayout.createParallelGroup(Alignment.LEADING)

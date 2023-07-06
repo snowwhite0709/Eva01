@@ -68,27 +68,28 @@ public class NextEpisodeImages extends JPanel {
 		////魂の軌跡
 		ImageIcon[] imageIcons = 
 			{//new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\予告.jpg"),
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\①.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\②.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\③.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\④.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑤.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑥.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑦.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑧.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑨.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑩.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑪.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑫.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑬.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑭.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑮.jpg"), 
-			new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\リサイズ済み\\⑯.jpg"), 
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\①.jpg"), 
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\②.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\③.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\④.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑤.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑥.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑦.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑧.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑨.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑩.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑪.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑫.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑬.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑭.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑮.jpg"),
+			new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\⑯.jpg")
 			};
 		
 		
+		
 		//予告
-		lblNewLabel = new JLabel(new ImageIcon("C:\\Users\\智志\\Desktop\\eva\\予告.jpg"));
+		lblNewLabel = new JLabel(new ImageIcon("C:\\Users\\3030855\\git\\Eva01\\file\\予告.jpg"));
 				
 		
 		Animation anime = new Animation (lblNewLabel,imageIcons);
