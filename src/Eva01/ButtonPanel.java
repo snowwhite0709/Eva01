@@ -98,7 +98,7 @@ public class ButtonPanel extends JPanel {
 					if(leverOn) {
 						System.out.println("当たり");
 						//次回予告BGM
-						nextEpisodeBGM = BGM.createClip(new File("C:\\Users\\智志\\Desktop\\eva\\新世紀エヴァンゲリオンBGM　次回予告-from-YouTube.wav"));
+						nextEpisodeBGM = BGM.createClip(new File("C:\\Users\\3030855\\git\\Eva01\\file\\新世紀エヴァンゲリオンBGM　次回予告-from-YouTube.wav"));
 						nextEpisodeBGM.setFramePosition(1120000);
 						nextEpisodeBGM.setFramePosition(60000);
 						nextEpisodeBGM.setLoopPoints(60000, 1090000);
@@ -328,10 +328,11 @@ public class ButtonPanel extends JPanel {
 		//BGM関連の処理
 		nextEpisodeBGM.stop();
 		nextEpisodeBGM.flush();
-		nextEpisodeBGM_1 = BGM.createClip(new File("C:\\Users\\智志\\Desktop\\eva\\新世紀エヴァンゲリオンBGM　次回予告-from-YouTube.wav"));
+		nextEpisodeBGM_1 = BGM.createClip(new File("C:\\Users\\3030855\\git\\Eva01\\file\\新世紀エヴァンゲリオンBGM　次回予告-from-YouTube.wav"));
 		nextEpisodeBGM_1.setFramePosition(1120000);
 		nextEpisodeBGM_1.start();
-		impactFlash = BGM.createClip(new File("C:\\Users\\智志\\Desktop\\eva\\エヴァンゲリオン　インパクトフラッシュ-from-YouTube.wav"));
+		//↓MP３ではないものをコピペする
+//		impactFlash = BGM.createClip(new File("C:\\Users\\智志\\Desktop\\eva\\エヴァンゲリオン　インパクトフラッシュ-from-YouTube.wav"));
 		FloatControl ctrl = (FloatControl)impactFlash.getControl(FloatControl.Type.MASTER_GAIN);
 		impactFlash.start();
 		ctrl.setValue(6);
